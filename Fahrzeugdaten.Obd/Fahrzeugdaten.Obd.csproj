@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoSerialPort" Version="1.0.15" />
+    <PackageReference Include="OpenNETCF.MQTT" Version="1.0.17253" />
+    <PackageReference Include="Unosquare.Raspberry.IO" Version="0.21.0" />
+    <PackageReference Include="Unosquare.WiringPi" Version="0.3.1" />
+  </ItemGroup>
+ 
+</Project>
